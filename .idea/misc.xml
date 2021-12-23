@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215625" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/drawable/bilibili_logo.xml" value="0.215625" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/drawable/divider_rectangle.xml" value="0.109375" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215625" />
         <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/layout/bilibili_simulation_layout.xml" value="0.34232365145228216" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/layout/bilibili_simulation_layout.xml" value="0.22" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/layout/fragment_to_show_msg.xml" value="0.16666666666666666" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/layout/recycler_view_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109375" />
+        <entry key="..\:/git/gitcode/West2Online_Third_Appraisal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.109375" />
       </map>
     </option>
   </component>
