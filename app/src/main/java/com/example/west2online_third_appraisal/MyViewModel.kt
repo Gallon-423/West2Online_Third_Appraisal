@@ -3,7 +3,12 @@ package com.example.west2online_third_appraisal
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-
+/**
+ * @Author Gallon
+ * @Package com.example.west2online_third_appraisal
+ * @Description 存储数据的viewModel类
+ * @Time 2022-12-31,周五 17:20
+ */
 class MyViewModel: ViewModel() {
     private var _items: MutableList<UpItem>  = mutableListOf()
     val items: MutableList<UpItem>

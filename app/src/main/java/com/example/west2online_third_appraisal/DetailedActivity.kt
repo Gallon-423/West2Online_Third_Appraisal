@@ -13,7 +13,12 @@ import androidx.annotation.ColorInt
 import androidx.databinding.DataBindingUtil
 import com.example.west2online_third_appraisal.databinding.DetailedActivityBinding
 
-
+/**
+ * @Author Gallon
+ * @Package com.example.west2online_third_appraisal
+ * @Description DetailActivity根据传入的信息构建活动，并返回相应应该删除的position
+ * @Time 2022-12-31,周五 17:19
+ */
 class DetailedActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

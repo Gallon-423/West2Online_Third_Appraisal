@@ -1,4 +1,10 @@
 package com.example.west2online_third_appraisal
+/**
+ * @Author Gallon
+ * @Package com.example.west2online_third_appraisal
+ * @Description 用来存储数据的文件
+ * @Time 2022-12-31,周五 17:18
+ */
 val videoImageList:List<Int> = listOf(
     R.drawable.vedio01,
     R.drawable.vedio02,

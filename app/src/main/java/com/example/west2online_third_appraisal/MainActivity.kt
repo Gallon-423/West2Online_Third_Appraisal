@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
             )
         //Log.d("MainActivity","活动创建！")
         setAdapterForViewPager()
+        binding.viewPager2.setPageTransformer(ZoomOutPageTransformer())
         initRecycler()
         //根据回调数据进行处理
         val requestDataLauncher = callBackHandler()

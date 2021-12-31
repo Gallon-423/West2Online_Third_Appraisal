@@ -10,6 +10,12 @@ import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import com.example.west2online_third_appraisal.databinding.FragmentToShowMsgBinding
 
+/**
+ * @Author Gallon
+ * @Package com.example.west2online_third_appraisal
+ * @Description 主界面下半部分放入viewPager2的fragment定义
+ * @Time 2022-12-31,周五 17:17
+ */
 
 class MsgFragment(private val position : Int): Fragment() {
     //获取父活动中的viewModel使用activityViewModels的委派属性,否则会再创建一个实例
