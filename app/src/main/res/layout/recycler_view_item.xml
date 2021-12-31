@@ -14,12 +14,12 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
 
-    <ImageView
-        android:id="@+id/upItemImage"
-        android:layout_width="60dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="2dp"
-        android:contentDescription="boxer"
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/item_head_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        app:shapeAppearance="@style/CircleStyle"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,7 +27,7 @@
         app:srcCompat="@drawable/boxer" />
 
     <TextView
-        android:id="@+id/upItemName"
+        android:id="@+id/item_name"
         android:layout_width="65dp"
         android:layout_height="42dp"
         android:layout_marginTop="4dp"
