@@ -7,17 +7,19 @@ import androidx.viewpager2.widget.ViewPager2
  * @Description 开发文档上的代码，cv下来尝试,修改参数
  * @Time 2022-12-31,周五 17:24
  */
-private const val MIN_SCALE = 0.85f
+private const val MIN_SCALE = 0.7f
 private const val MIN_ALPHA = 0.8f
 class ZoomOutPageTransformer:ViewPager2.PageTransformer {
     override fun transformPage(view: View, position: Float) {
         view.apply {
+
             val pageWidth = width
             val pageHeight = height
             when {
                 position < -1 -> { // [-Infinity,-1)
                     // This page is way off-screen to the left.
                     alpha = 0f
+
                 }
                 position <= 1 -> { // [-1,1]
                     // Modify the default slide transition to shrink the page as well
@@ -37,10 +39,12 @@ class ZoomOutPageTransformer:ViewPager2.PageTransformer {
                     // Fade the page relative to its size.
                     alpha = (MIN_ALPHA +
                             (((scaleFactor - MIN_SCALE) / (1 - MIN_SCALE)) * (1 - MIN_ALPHA)))
+
                 }
                 else -> { // (1,+Infinity]
                     // This page is way off-screen to the right.
                     alpha = 0f
+
                 }
             }
         }
